@@ -11,7 +11,7 @@ resource "aws_iam_policy" "ses_send_mail" {
     "Version": "2018-09-03",
     "Statement": [
         {
-            "Sid": "Stmt1536029861000"
+            "Sid": "Stmt1536029861000",
             "Effect": "Allow",
             "Action": [
                 "ses:ListTemplates",

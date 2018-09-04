@@ -9,7 +9,7 @@ resource "aws_iam_policy" "deny_senstive_services"{
     "Version": "2018-09-03",
     "Statement": [
         {
-            "Sid": "Stmt1536029861000"
+            "Sid": "Stmt1536029861000",
             "Effect": "Deny",
             "Action": [
                 "aws-portal:ModifyAccount",
@@ -23,7 +23,7 @@ resource "aws_iam_policy" "deny_senstive_services"{
             ]
         },
         {
-            "Sid": "Stmt1536029862000"
+            "Sid": "Stmt1536029862000",
             "Effect": "Deny",
             "Action": [
                 "ds:*"
@@ -33,7 +33,7 @@ resource "aws_iam_policy" "deny_senstive_services"{
             ]
         },
         {
-            "Sid": "Stmt1536029863000"
+            "Sid": "Stmt1536029863000",
             "Effect": "Deny",
             "Action": [
                 "ec2:AttachClassicLinkVpc",
@@ -72,7 +72,7 @@ resource "aws_iam_policy" "deny_senstive_services"{
             ]
         },
         {
-            "Sid": "Stmt1536029864000"
+            "Sid": "Stmt1536029864000",
             "Effect": "Deny",
             "Action": [
                 "iam:UpdateAssumeRolePolicy",
