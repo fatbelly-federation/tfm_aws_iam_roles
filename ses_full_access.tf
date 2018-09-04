@@ -11,6 +11,7 @@ resource "aws_iam_policy" "ses_full_access" {
     "Version": "2018-09-03",
     "Statement": [
         {
+            "Sid": "Stmt1536029861000"
             "Effect": "Allow",
             "Action": [
                 "ses:*"

@@ -17,6 +17,7 @@ resource "aws_iam_policy" "create_delete_ebs_snapshots" {
     "Version": "2018-09-03",
     "Statement": [
         {
+            "Sid": "Stmt1536029861000"
             "Effect": "Allow",
             "Action": [
                 "ec2:CreateSnapshot",

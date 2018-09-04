@@ -10,6 +10,7 @@ resource "aws_iam_policy" "sqs_read_write" {
     "Version": "2018-09-03",
     "Statement": [
         {
+            "Sid": "Stmt1536029861000"
             "Effect": "Allow",
             "Action": [
                 "sqs:DeleteMessage",
@@ -33,6 +34,7 @@ resource "aws_iam_policy" "sqs_read_write" {
             "Resource": "arn:aws:sqs:*:*:*"
         },
         {
+            "Sid": "Stmt1536029861000"
             "Effect": "Allow",
             "Action": "sqs:ListQueues",
             "Resource": "*"

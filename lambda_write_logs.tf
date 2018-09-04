@@ -11,6 +11,7 @@ resource "aws_iam_policy" "lambda_write_logs" {
     "Version": "2018-09-03",
     "Statement": [
         {
+            "Sid": "Stmt1536029861000"
             "Effect": "Allow",
             "Action": [
                 "logs:CreateLogGroup",

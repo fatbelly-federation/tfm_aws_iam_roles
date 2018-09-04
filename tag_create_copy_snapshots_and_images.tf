@@ -11,6 +11,7 @@ resource "aws_iam_policy" "tag_create_copy_snapshots_and_images" {
     "Version": "2018-09-03",
     "Statement": [
         {
+            "Sid": "Stmt1536029861000"
             "Effect": "Allow",
             "Action": [
                 "ec2:CreateTags",
@@ -23,6 +24,7 @@ resource "aws_iam_policy" "tag_create_copy_snapshots_and_images" {
             ]
         },
         {
+            "Sid": "Stmt1536029861000"
             "Effect": "Allow",
             "Action": [
                 "ec2:CopySnapshot",
