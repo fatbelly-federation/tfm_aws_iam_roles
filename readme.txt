@@ -1,1 +1,2 @@
-Some common, useful IAM roles and policies
+Some useful IAM roles.
+Depends on IAM Policies module.
